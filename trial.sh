@@ -11,6 +11,6 @@ echo "Pulling the Docker image from Docker Hub..."
 docker pull "$IMAGE_NAME"
 
 # Run the container
-
-
 sudo docker run --hostname "$HOSTNAME" -it trail_2 /bin/bash -c "/home/ubuntu/flag_dir/script && /bin/bash"
+
+
